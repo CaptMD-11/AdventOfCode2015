@@ -14,7 +14,7 @@ public class Day3 {
     }
 
     public int receiveAtLeastOne() {
-        try {
+        try { 
             File file = new File("data/Day3.txt");
             Scanner scanner = new Scanner(file);
             String line = "";
